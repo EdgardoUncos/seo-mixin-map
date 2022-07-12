@@ -1,0 +1,29 @@
+$color-redes: (
+
+    facebook: blue,
+    instagram: red, 
+    linkedin: brown,
+    twiter: orange,
+
+);
+
+.boton-facebook{
+    color: map-get($map: $color-redes, $key: facebook );
+
+}
+
+.boton-instagram{
+    color: map-get($map: $color-redes, $key: instagram );
+    
+}
+
+.boton-linkedin{
+    color: map-get($map: $color-redes, $key: linkedin );
+    
+}
+
+.boton-twiter{
+    color: map-get($map: $color-redes, $key: twiter );
+    
+}
+

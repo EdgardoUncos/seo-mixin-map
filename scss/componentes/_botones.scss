@@ -1,0 +1,19 @@
+.boton {
+    background-color: $color-principal;
+    padding: 5px 10px;
+   
+    border-radius: 20px;
+   color: $color-secundario;
+   
+
+   &:hover{
+
+        filter: opacity(85%);
+   }
+}
+
+.boton-mejorado{
+    @extend .boton;
+    border: solid 2px black;
+    text-decoration: none;
+}
